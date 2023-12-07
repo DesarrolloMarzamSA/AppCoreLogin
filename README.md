@@ -1,16 +1,18 @@
 # app_core_login
 
-A new Flutter project.
+Proyecto en Flutter
 
-## Getting Started
+## Descripción
 
-This project is a starting point for a Flutter application.
+Este proyecto esta pensado para ser el core de la sincroniozación inicial, login y dahsboar, controlando
+el diseño, colores, logotipo etc por medio de flavors.
 
-A few resources to get you started if this is your first Flutter project:
+Las funcionalidades que tendra disponibles dependera del tipo de aplicación que se compile, tipo de usuario y módulo externo al que se haga referencia.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Los módulos que se tienen identificados por el momento son: Ventas,Devoluciones, Cobranza, Captura de folios etc. Estos son desarrollados como proyectos externos los 
+cuales en este proyecto se implementaran por medio de referencia.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Por el momento solo se tiene identificadas las aplicaciones de Etransfer y Ventas internas para esta implementación.
+
+
+
