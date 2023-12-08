@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003B509C0AF7A745D84460E3 /* Pods_VentasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C09B217C73E27B2E4776E8 /* Pods_VentasTests.framework */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		154692E574C4AD06EF35DB00 /* Pods_Ventas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255F3B9B99CC386644DCEDC2 /* Pods_Ventas.framework */; };
+		2899376FB73F81DE8A53ED9A /* Pods_Etransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A59B2EB6F93F67079EA69B /* Pods_Etransfer.framework */; };
+		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
+		B296DC7E2B2291A500716F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		B296DC7F2B2291A500716F84 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		B296DC812B2291A500716F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		B296DC822B2291A500716F84 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		B296DC832B2291A500716F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		B296DC842B2291A500716F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		B296DC972B22AE1A00716F84 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
+		D7B894F386556FEF95CB2260 /* Pods_EtransferTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7621CF91D8C9D17795CFFF7F /* Pods_EtransferTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		331C8085294A63A400263BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
+			remoteInfo = Runner;
+		};
+		B296DC942B22AE1A00716F84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
@@ -37,37 +55,177 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B296DC852B2291A500716F84 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00A84BE5646D2E6F94F973C9 /* Pods-VentasTests.debug-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VentasTests.debug-etransfer.xcconfig"; path = "Target Support Files/Pods-VentasTests/Pods-VentasTests.debug-etransfer.xcconfig"; sourceTree = "<group>"; };
+		0F8CA8F522FCD90A0F5C5D51 /* Pods-Runner.profile-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-ventas.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-ventas.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		1BE317C47FE1FD555A860CDD /* Pods-RunnerTests.release-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-etransfer.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-etransfer.xcconfig"; sourceTree = "<group>"; };
+		1EB7C3B0D60C2F95E416C717 /* Pods-Etransfer.release-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etransfer.release-etransfer.xcconfig"; path = "Target Support Files/Pods-Etransfer/Pods-Etransfer.release-etransfer.xcconfig"; sourceTree = "<group>"; };
+		255F3B9B99CC386644DCEDC2 /* Pods_Ventas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ventas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		255F7D1FF77118FC24669C2E /* Pods-EtransferTests.profile-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtransferTests.profile-ventas.xcconfig"; path = "Target Support Files/Pods-EtransferTests/Pods-EtransferTests.profile-ventas.xcconfig"; sourceTree = "<group>"; };
+		2F5EF37DE78F97F95D45A047 /* Pods-Ventas.profile-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ventas.profile-etransfer.xcconfig"; path = "Target Support Files/Pods-Ventas/Pods-Ventas.profile-etransfer.xcconfig"; sourceTree = "<group>"; };
+		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
+		331C8081294A63A400263BE5 /* VentasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VentasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C09B217C73E27B2E4776E8 /* Pods_VentasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VentasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		42A59B2EB6F93F67079EA69B /* Pods_Etransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Etransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		478276366CCF9814EFAB0FCC /* Pods-Ventas.debug-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ventas.debug-ventas.xcconfig"; path = "Target Support Files/Pods-Ventas/Pods-Ventas.debug-ventas.xcconfig"; sourceTree = "<group>"; };
+		504DDAD4A29FDF25D1DA5368 /* Pods-VentasTests.profile-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VentasTests.profile-ventas.xcconfig"; path = "Target Support Files/Pods-VentasTests/Pods-VentasTests.profile-ventas.xcconfig"; sourceTree = "<group>"; };
+		552FD64B7E858B3B56C0E3FA /* Pods-Runner.release-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-ventas.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-ventas.xcconfig"; sourceTree = "<group>"; };
+		5A3CE3A9BEF2129952E86FFC /* Pods-RunnerTests.profile-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-ventas.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-ventas.xcconfig"; sourceTree = "<group>"; };
+		631475049DB0CD1AF47BC385 /* Pods-Etransfer.release-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etransfer.release-ventas.xcconfig"; path = "Target Support Files/Pods-Etransfer/Pods-Etransfer.release-ventas.xcconfig"; sourceTree = "<group>"; };
+		6541B3C4C4FD8AC7EF0F8A45 /* Pods-Etransfer.profile-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etransfer.profile-ventas.xcconfig"; path = "Target Support Files/Pods-Etransfer/Pods-Etransfer.profile-ventas.xcconfig"; sourceTree = "<group>"; };
+		69ACFF5F956DC7E7B8B60CBA /* Pods-Ventas.profile-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ventas.profile-ventas.xcconfig"; path = "Target Support Files/Pods-Ventas/Pods-Ventas.profile-ventas.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7621CF91D8C9D17795CFFF7F /* Pods_EtransferTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtransferTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
+		7F035FBE1EEF4650A36398B2 /* Pods-RunnerTests.debug-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-etransfer.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-etransfer.xcconfig"; sourceTree = "<group>"; };
+		8A65513F5EFB80DE7A3ADD2D /* Pods-Runner.debug-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-ventas.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-ventas.xcconfig"; sourceTree = "<group>"; };
+		8B62704D4E78ED2A9A1C207F /* Pods-RunnerTests.release-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-ventas.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-ventas.xcconfig"; sourceTree = "<group>"; };
+		9082526EF189D197E2E2EC7A /* Pods-VentasTests.release-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VentasTests.release-etransfer.xcconfig"; path = "Target Support Files/Pods-VentasTests/Pods-VentasTests.release-etransfer.xcconfig"; sourceTree = "<group>"; };
+		9170F07ADE05361B57FAC037 /* Pods-Ventas.debug-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ventas.debug-etransfer.xcconfig"; path = "Target Support Files/Pods-Ventas/Pods-Ventas.debug-etransfer.xcconfig"; sourceTree = "<group>"; };
+		94A3A51AAD03BA7ECBAD1E0B /* Pods-RunnerTests.debug-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-ventas.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-ventas.xcconfig"; sourceTree = "<group>"; };
+		950EABAEDAF303FB8D1D039B /* Pods-Runner.release-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-etransfer.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-etransfer.xcconfig"; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
-		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C146EE1CF9000F007C117D /* Ventas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ventas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
-		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE55B8849E2C4B853E1EF67 /* Pods-VentasTests.release-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VentasTests.release-ventas.xcconfig"; path = "Target Support Files/Pods-VentasTests/Pods-VentasTests.release-ventas.xcconfig"; sourceTree = "<group>"; };
+		A26DDF5F993DD5651DDDB076 /* Pods-VentasTests.debug-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VentasTests.debug-ventas.xcconfig"; path = "Target Support Files/Pods-VentasTests/Pods-VentasTests.debug-ventas.xcconfig"; sourceTree = "<group>"; };
+		ADE18617BCBE94D33B0F0150 /* Pods-EtransferTests.debug-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtransferTests.debug-ventas.xcconfig"; path = "Target Support Files/Pods-EtransferTests/Pods-EtransferTests.debug-ventas.xcconfig"; sourceTree = "<group>"; };
+		B296DC902B2291A500716F84 /* Etransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B296DC912B2291A900716F84 /* Runner copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy-Info.plist"; path = "/Users/isaacmartinezborbon/Documents/Hybrid/AppCoreLogin/ios/Runner copy-Info.plist"; sourceTree = "<absolute>"; };
+		B296DCA22B22AE1A00716F84 /* EtransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB07357EAE7231C82A8038 /* Pods-EtransferTests.release-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtransferTests.release-ventas.xcconfig"; path = "Target Support Files/Pods-EtransferTests/Pods-EtransferTests.release-ventas.xcconfig"; sourceTree = "<group>"; };
+		BCCEE29BE24B68ED9509CD73 /* Pods-VentasTests.profile-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VentasTests.profile-etransfer.xcconfig"; path = "Target Support Files/Pods-VentasTests/Pods-VentasTests.profile-etransfer.xcconfig"; sourceTree = "<group>"; };
+		BDE83D25F3D7014162C37EEA /* Pods-Ventas.release-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ventas.release-ventas.xcconfig"; path = "Target Support Files/Pods-Ventas/Pods-Ventas.release-ventas.xcconfig"; sourceTree = "<group>"; };
+		BE1E8089C8891170E7605AD2 /* Pods-Etransfer.debug-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etransfer.debug-etransfer.xcconfig"; path = "Target Support Files/Pods-Etransfer/Pods-Etransfer.debug-etransfer.xcconfig"; sourceTree = "<group>"; };
+		C5BBF5C480B2F8E8F2199801 /* Pods-EtransferTests.release-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtransferTests.release-etransfer.xcconfig"; path = "Target Support Files/Pods-EtransferTests/Pods-EtransferTests.release-etransfer.xcconfig"; sourceTree = "<group>"; };
+		D26CB4BAEAF00D9D06FF5B42 /* Pods-Ventas.release-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ventas.release-etransfer.xcconfig"; path = "Target Support Files/Pods-Ventas/Pods-Ventas.release-etransfer.xcconfig"; sourceTree = "<group>"; };
+		E1FB28AA93D9D9C7BED50994 /* Pods-EtransferTests.profile-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtransferTests.profile-etransfer.xcconfig"; path = "Target Support Files/Pods-EtransferTests/Pods-EtransferTests.profile-etransfer.xcconfig"; sourceTree = "<group>"; };
+		E5AAF624B95CF947069D82B0 /* Pods-Etransfer.debug-ventas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etransfer.debug-ventas.xcconfig"; path = "Target Support Files/Pods-Etransfer/Pods-Etransfer.debug-ventas.xcconfig"; sourceTree = "<group>"; };
+		E70201BB26FB4FEF78DBB488 /* Pods-RunnerTests.profile-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-etransfer.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-etransfer.xcconfig"; sourceTree = "<group>"; };
+		EE48CBCE6EF9C0235618D1D5 /* Pods-Runner.profile-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-etransfer.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-etransfer.xcconfig"; sourceTree = "<group>"; };
+		F907F31E8C5F522C87EDF77A /* Pods-EtransferTests.debug-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtransferTests.debug-etransfer.xcconfig"; path = "Target Support Files/Pods-EtransferTests/Pods-EtransferTests.debug-etransfer.xcconfig"; sourceTree = "<group>"; };
+		F9A03E818DFBF724CC45CC59 /* Pods-Etransfer.profile-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etransfer.profile-etransfer.xcconfig"; path = "Target Support Files/Pods-Etransfer/Pods-Etransfer.profile-etransfer.xcconfig"; sourceTree = "<group>"; };
+		FAC912F09B54F1A94CE64A26 /* Pods-Runner.debug-etransfer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-etransfer.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-etransfer.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		97C146EB1CF9000F007C117D /* Frameworks */ = {
+		B296DC872B2291A500716F84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2899376FB73F81DE8A53ED9A /* Pods_Etransfer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B296DC992B22AE1A00716F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B894F386556FEF95CB2260 /* Pods_EtransferTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF807E32624C818FAA10B312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003B509C0AF7A745D84460E3 /* Pods_VentasTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ED148F8D36BE55AA6BB685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154692E574C4AD06EF35DB00 /* Pods_Ventas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		219AF87BED060902A773B574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42A59B2EB6F93F67079EA69B /* Pods_Etransfer.framework */,
+				7621CF91D8C9D17795CFFF7F /* Pods_EtransferTests.framework */,
+				255F3B9B99CC386644DCEDC2 /* Pods_Ventas.framework */,
+				36C09B217C73E27B2E4776E8 /* Pods_VentasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		331C8082294A63A400263BE5 /* RunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				331C807B294A618700263BE5 /* RunnerTests.swift */,
+			);
+			path = RunnerTests;
+			sourceTree = "<group>";
+		};
+		3A20F9ECE9DF23AAA795A081 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAC912F09B54F1A94CE64A26 /* Pods-Runner.debug-etransfer.xcconfig */,
+				8A65513F5EFB80DE7A3ADD2D /* Pods-Runner.debug-ventas.xcconfig */,
+				950EABAEDAF303FB8D1D039B /* Pods-Runner.release-etransfer.xcconfig */,
+				552FD64B7E858B3B56C0E3FA /* Pods-Runner.release-ventas.xcconfig */,
+				EE48CBCE6EF9C0235618D1D5 /* Pods-Runner.profile-etransfer.xcconfig */,
+				0F8CA8F522FCD90A0F5C5D51 /* Pods-Runner.profile-ventas.xcconfig */,
+				7F035FBE1EEF4650A36398B2 /* Pods-RunnerTests.debug-etransfer.xcconfig */,
+				94A3A51AAD03BA7ECBAD1E0B /* Pods-RunnerTests.debug-ventas.xcconfig */,
+				1BE317C47FE1FD555A860CDD /* Pods-RunnerTests.release-etransfer.xcconfig */,
+				8B62704D4E78ED2A9A1C207F /* Pods-RunnerTests.release-ventas.xcconfig */,
+				E70201BB26FB4FEF78DBB488 /* Pods-RunnerTests.profile-etransfer.xcconfig */,
+				5A3CE3A9BEF2129952E86FFC /* Pods-RunnerTests.profile-ventas.xcconfig */,
+				BE1E8089C8891170E7605AD2 /* Pods-Etransfer.debug-etransfer.xcconfig */,
+				E5AAF624B95CF947069D82B0 /* Pods-Etransfer.debug-ventas.xcconfig */,
+				1EB7C3B0D60C2F95E416C717 /* Pods-Etransfer.release-etransfer.xcconfig */,
+				631475049DB0CD1AF47BC385 /* Pods-Etransfer.release-ventas.xcconfig */,
+				F9A03E818DFBF724CC45CC59 /* Pods-Etransfer.profile-etransfer.xcconfig */,
+				6541B3C4C4FD8AC7EF0F8A45 /* Pods-Etransfer.profile-ventas.xcconfig */,
+				F907F31E8C5F522C87EDF77A /* Pods-EtransferTests.debug-etransfer.xcconfig */,
+				ADE18617BCBE94D33B0F0150 /* Pods-EtransferTests.debug-ventas.xcconfig */,
+				C5BBF5C480B2F8E8F2199801 /* Pods-EtransferTests.release-etransfer.xcconfig */,
+				BBEB07357EAE7231C82A8038 /* Pods-EtransferTests.release-ventas.xcconfig */,
+				E1FB28AA93D9D9C7BED50994 /* Pods-EtransferTests.profile-etransfer.xcconfig */,
+				255F7D1FF77118FC24669C2E /* Pods-EtransferTests.profile-ventas.xcconfig */,
+				9170F07ADE05361B57FAC037 /* Pods-Ventas.debug-etransfer.xcconfig */,
+				478276366CCF9814EFAB0FCC /* Pods-Ventas.debug-ventas.xcconfig */,
+				D26CB4BAEAF00D9D06FF5B42 /* Pods-Ventas.release-etransfer.xcconfig */,
+				BDE83D25F3D7014162C37EEA /* Pods-Ventas.release-ventas.xcconfig */,
+				2F5EF37DE78F97F95D45A047 /* Pods-Ventas.profile-etransfer.xcconfig */,
+				69ACFF5F956DC7E7B8B60CBA /* Pods-Ventas.profile-ventas.xcconfig */,
+				00A84BE5646D2E6F94F973C9 /* Pods-VentasTests.debug-etransfer.xcconfig */,
+				A26DDF5F993DD5651DDDB076 /* Pods-VentasTests.debug-ventas.xcconfig */,
+				9082526EF189D197E2E2EC7A /* Pods-VentasTests.release-etransfer.xcconfig */,
+				9CE55B8849E2C4B853E1EF67 /* Pods-VentasTests.release-ventas.xcconfig */,
+				BCCEE29BE24B68ED9509CD73 /* Pods-VentasTests.profile-etransfer.xcconfig */,
+				504DDAD4A29FDF25D1DA5368 /* Pods-VentasTests.profile-ventas.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9740EEB11CF90186004384FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,14 +237,6 @@
 			name = Flutter;
 			sourceTree = "<group>";
 		};
-		331C8082294A63A400263BE5 /* RunnerTests */ = {
-			isa = PBXGroup;
-			children = (
-				331C807B294A618700263BE5 /* RunnerTests.swift */,
-			);
-			path = RunnerTests;
-			sourceTree = "<group>";
-		};
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
@@ -94,14 +244,19 @@
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
 				331C8082294A63A400263BE5 /* RunnerTests */,
+				3A20F9ECE9DF23AAA795A081 /* Pods */,
+				219AF87BED060902A773B574 /* Frameworks */,
+				B296DC912B2291A900716F84 /* Runner copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		97C146EF1CF9000F007C117D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97C146EE1CF9000F007C117D /* Runner.app */,
-				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
+				97C146EE1CF9000F007C117D /* Ventas.app */,
+				331C8081294A63A400263BE5 /* VentasTests.xctest */,
+				B296DC902B2291A500716F84 /* Etransfer.app */,
+				B296DCA22B22AE1A00716F84 /* EtransferTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,43 +279,85 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		331C8080294A63A400263BE5 /* RunnerTests */ = {
+		331C8080294A63A400263BE5 /* VentasTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */;
+			buildConfigurationList = 331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "VentasTests" */;
 			buildPhases = (
+				F389711BCA42BF287731497E /* [CP] Check Pods Manifest.lock */,
 				331C807D294A63A400263BE5 /* Sources */,
-				331C807E294A63A400263BE5 /* Frameworks */,
 				331C807F294A63A400263BE5 /* Resources */,
+				CF807E32624C818FAA10B312 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				331C8086294A63A400263BE5 /* PBXTargetDependency */,
 			);
-			name = RunnerTests;
+			name = VentasTests;
 			productName = RunnerTests;
-			productReference = 331C8081294A63A400263BE5 /* RunnerTests.xctest */;
+			productReference = 331C8081294A63A400263BE5 /* VentasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		97C146ED1CF9000F007C117D /* Runner */ = {
+		97C146ED1CF9000F007C117D /* Ventas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Ventas" */;
 			buildPhases = (
+				CF460B3AF2F38C09FBB899C0 /* [CP] Check Pods Manifest.lock */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
-				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				D2ED148F8D36BE55AA6BB685 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Runner;
+			name = Ventas;
 			productName = Runner;
-			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
+			productReference = 97C146EE1CF9000F007C117D /* Ventas.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B296DC7A2B2291A500716F84 /* Etransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B296DC892B2291A500716F84 /* Build configuration list for PBXNativeTarget "Etransfer" */;
+			buildPhases = (
+				B296DC7B2B2291A500716F84 /* [CP] Check Pods Manifest.lock */,
+				B296DC7C2B2291A500716F84 /* Run Script */,
+				B296DC7D2B2291A500716F84 /* Sources */,
+				B296DC802B2291A500716F84 /* Resources */,
+				B296DC852B2291A500716F84 /* Embed Frameworks */,
+				B296DC862B2291A500716F84 /* Thin Binary */,
+				B296DC872B2291A500716F84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etransfer;
+			productName = Runner;
+			productReference = B296DC902B2291A500716F84 /* Etransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B296DC922B22AE1A00716F84 /* EtransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B296DC9B2B22AE1A00716F84 /* Build configuration list for PBXNativeTarget "EtransferTests" */;
+			buildPhases = (
+				B296DC952B22AE1A00716F84 /* [CP] Check Pods Manifest.lock */,
+				B296DC962B22AE1A00716F84 /* Sources */,
+				B296DC982B22AE1A00716F84 /* Resources */,
+				B296DC992B22AE1A00716F84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B296DC932B22AE1A00716F84 /* PBXTargetDependency */,
+			);
+			name = EtransferTests;
+			productName = RunnerTests;
+			productReference = B296DCA22B22AE1A00716F84 /* EtransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,8 +392,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97C146ED1CF9000F007C117D /* Runner */,
-				331C8080294A63A400263BE5 /* RunnerTests */,
+				97C146ED1CF9000F007C117D /* Ventas */,
+				B296DC7A2B2291A500716F84 /* Etransfer */,
+				331C8080294A63A400263BE5 /* VentasTests */,
+				B296DC922B22AE1A00716F84 /* EtransferTests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +416,24 @@
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B296DC802B2291A500716F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B296DC812B2291A500716F84 /* LaunchScreen.storyboard in Resources */,
+				B296DC822B2291A500716F84 /* AppFrameworkInfo.plist in Resources */,
+				B296DC832B2291A500716F84 /* Assets.xcassets in Resources */,
+				B296DC842B2291A500716F84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B296DC982B22AE1A00716F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +469,126 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+		B296DC7B2B2291A500716F84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Etransfer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${SRCROOT}/Podfile.lock\" \"${SRCROOT}/Pods/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B296DC7C2B2291A500716F84 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+		B296DC862B2291A500716F84 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}",
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+		};
+		B296DC952B22AE1A00716F84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EtransferTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF460B3AF2F38C09FBB899C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ventas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${SRCROOT}/Podfile.lock\" \"${SRCROOT}/Pods/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F389711BCA42BF287731497E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VentasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -274,13 +610,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B296DC7D2B2291A500716F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B296DC7E2B2291A500716F84 /* AppDelegate.swift in Sources */,
+				B296DC7F2B2291A500716F84 /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B296DC962B22AE1A00716F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B296DC972B22AE1A00716F84 /* RunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		331C8086294A63A400263BE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97C146ED1CF9000F007C117D /* Runner */;
+			target = 97C146ED1CF9000F007C117D /* Ventas */;
 			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
+		};
+		B296DC932B22AE1A00716F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97C146ED1CF9000F007C117D /* Ventas */;
+			targetProxy = B296DC942B22AE1A00716F84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -304,7 +662,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		249021D3217E4FDB00AE95B9 /* Profile */ = {
+		249021D3217E4FDB00AE95B9 /* Profile-Etransfer */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,39 +703,42 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Profile Etransfer";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Profile;
+			name = "Profile-Etransfer";
 		};
-		249021D4217E4FDB00AE95B9 /* Profile */ = {
+		249021D4217E4FDB00AE95B9 /* Profile-Etransfer */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "Profile  Etransfer";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = "Runner/Info-Etransfer.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.externos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Profile;
+			name = "Profile-Etransfer";
 		};
-		331C8088294A63A400263BE5 /* Debug */ = {
+		331C8088294A63A400263BE5 /* Debug-Etransfer */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE0B7B92F70575B8D7E0D07E /* Pods-RunnerTests.debug.xcconfig */;
+			baseConfigurationReference = 00A84BE5646D2E6F94F973C9 /* Pods-VentasTests.debug-etransfer.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -391,11 +752,11 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = Debug;
+			name = "Debug-Etransfer";
 		};
-		331C8089294A63A400263BE5 /* Release */ = {
+		331C8089294A63A400263BE5 /* Release-Etransfer */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89B67EB44CE7B6631473024E /* Pods-RunnerTests.release.xcconfig */;
+			baseConfigurationReference = 9082526EF189D197E2E2EC7A /* Pods-VentasTests.release-etransfer.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -407,11 +768,11 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = Release;
+			name = "Release-Etransfer";
 		};
-		331C808A294A63A400263BE5 /* Profile */ = {
+		331C808A294A63A400263BE5 /* Profile-Etransfer */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 640959BDD8F10B91D80A66BE /* Pods-RunnerTests.profile.xcconfig */;
+			baseConfigurationReference = BCCEE29BE24B68ED9509CD73 /* Pods-VentasTests.profile-etransfer.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -423,9 +784,9 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = Profile;
+			name = "Profile-Etransfer";
 		};
-		97C147031CF9000F007C117D /* Debug */ = {
+		97C147031CF9000F007C117D /* Debug-Etransfer */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -472,15 +833,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Debug Etransfer";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = "Debug-Etransfer";
 		};
-		97C147041CF9000F007C117D /* Release */ = {
+		97C147041CF9000F007C117D /* Release-Etransfer */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -521,8 +883,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Release Etransfer";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -530,83 +893,642 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Release-Etransfer";
 		};
-		97C147061CF9000F007C117D /* Debug */ = {
+		97C147061CF9000F007C117D /* Debug-Etransfer */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "Debug Etransfer";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = "Runner/Info-Etransfer.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.externos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Debug;
+			name = "Debug-Etransfer";
 		};
-		97C147071CF9000F007C117D /* Release */ = {
+		97C147071CF9000F007C117D /* Release-Etransfer */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "Release  Etransfer";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Runner/Info.plist;
+				INFOPLIST_FILE = "Runner/Info-Etransfer.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.externos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Release;
+			name = "Release-Etransfer";
+		};
+		B296DC712B227FAC00716F84 /* Debug-Ventas */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Debug Ventas";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-Ventas";
+		};
+		B296DC722B227FAC00716F84 /* Debug-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Debug Ventas";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Ventas.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.ventas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Debug-Ventas";
+		};
+		B296DC732B227FAC00716F84 /* Debug-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26DDF5F993DD5651DDDB076 /* Pods-VentasTests.debug-ventas.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Debug-Ventas";
+		};
+		B296DC742B22848F00716F84 /* Release-Ventas */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Release Ventas";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Ventas";
+		};
+		B296DC752B22848F00716F84 /* Release-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Release Ventas";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Ventas.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.ventas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Release-Ventas";
+		};
+		B296DC762B22848F00716F84 /* Release-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE55B8849E2C4B853E1EF67 /* Pods-VentasTests.release-ventas.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Release-Ventas";
+		};
+		B296DC772B22849700716F84 /* Profile-Ventas */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Profile Ventas";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Profile-Ventas";
+		};
+		B296DC782B22849700716F84 /* Profile-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Profile Ventas";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Ventas.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.ventas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Profile-Ventas";
+		};
+		B296DC792B22849700716F84 /* Profile-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504DDAD4A29FDF25D1DA5368 /* Pods-VentasTests.profile-ventas.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Profile-Ventas";
+		};
+		B296DC8A2B2291A500716F84 /* Debug-Etransfer */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Debug Etransfer";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Etransfer.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.externos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Debug-Etransfer";
+		};
+		B296DC8B2B2291A500716F84 /* Debug-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Debug Ventas";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Ventas.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.ventas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Debug-Ventas";
+		};
+		B296DC8C2B2291A500716F84 /* Release-Etransfer */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Release  Etransfer";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Etransfer.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.externos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Release-Etransfer";
+		};
+		B296DC8D2B2291A500716F84 /* Release-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Release Ventas";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Ventas.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.ventas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Release-Ventas";
+		};
+		B296DC8E2B2291A500716F84 /* Profile-Etransfer */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Profile  Etransfer";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Etransfer.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.externos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Profile-Etransfer";
+		};
+		B296DC8F2B2291A500716F84 /* Profile-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Profile Ventas";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 4848UJ6DTY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Runner/Info-Ventas.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzam.core.ventas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Profile-Ventas";
+		};
+		B296DC9C2B22AE1A00716F84 /* Debug-Etransfer */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F907F31E8C5F522C87EDF77A /* Pods-EtransferTests.debug-etransfer.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Debug-Etransfer";
+		};
+		B296DC9D2B22AE1A00716F84 /* Debug-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE18617BCBE94D33B0F0150 /* Pods-EtransferTests.debug-ventas.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Debug-Ventas";
+		};
+		B296DC9E2B22AE1A00716F84 /* Release-Etransfer */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BBF5C480B2F8E8F2199801 /* Pods-EtransferTests.release-etransfer.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Release-Etransfer";
+		};
+		B296DC9F2B22AE1A00716F84 /* Release-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEB07357EAE7231C82A8038 /* Pods-EtransferTests.release-ventas.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Release-Ventas";
+		};
+		B296DCA02B22AE1A00716F84 /* Profile-Etransfer */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1FB28AA93D9D9C7BED50994 /* Pods-EtransferTests.profile-etransfer.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Profile-Etransfer";
+		};
+		B296DCA12B22AE1A00716F84 /* Profile-Ventas */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255F7D1FF77118FC24669C2E /* Pods-EtransferTests.profile-ventas.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appCoreLogin.RunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
+			};
+			name = "Profile-Ventas";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */ = {
+		331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "VentasTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				331C8088294A63A400263BE5 /* Debug */,
-				331C8089294A63A400263BE5 /* Release */,
-				331C808A294A63A400263BE5 /* Profile */,
+				331C8088294A63A400263BE5 /* Debug-Etransfer */,
+				B296DC732B227FAC00716F84 /* Debug-Ventas */,
+				331C8089294A63A400263BE5 /* Release-Etransfer */,
+				B296DC762B22848F00716F84 /* Release-Ventas */,
+				331C808A294A63A400263BE5 /* Profile-Etransfer */,
+				B296DC792B22849700716F84 /* Profile-Ventas */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug-Ventas";
 		};
 		97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97C147031CF9000F007C117D /* Debug */,
-				97C147041CF9000F007C117D /* Release */,
-				249021D3217E4FDB00AE95B9 /* Profile */,
+				97C147031CF9000F007C117D /* Debug-Etransfer */,
+				B296DC712B227FAC00716F84 /* Debug-Ventas */,
+				97C147041CF9000F007C117D /* Release-Etransfer */,
+				B296DC742B22848F00716F84 /* Release-Ventas */,
+				249021D3217E4FDB00AE95B9 /* Profile-Etransfer */,
+				B296DC772B22849700716F84 /* Profile-Ventas */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug-Ventas";
 		};
-		97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */ = {
+		97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Ventas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97C147061CF9000F007C117D /* Debug */,
-				97C147071CF9000F007C117D /* Release */,
-				249021D4217E4FDB00AE95B9 /* Profile */,
+				97C147061CF9000F007C117D /* Debug-Etransfer */,
+				B296DC722B227FAC00716F84 /* Debug-Ventas */,
+				97C147071CF9000F007C117D /* Release-Etransfer */,
+				B296DC752B22848F00716F84 /* Release-Ventas */,
+				249021D4217E4FDB00AE95B9 /* Profile-Etransfer */,
+				B296DC782B22849700716F84 /* Profile-Ventas */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Debug-Ventas";
+		};
+		B296DC892B2291A500716F84 /* Build configuration list for PBXNativeTarget "Etransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B296DC8A2B2291A500716F84 /* Debug-Etransfer */,
+				B296DC8B2B2291A500716F84 /* Debug-Ventas */,
+				B296DC8C2B2291A500716F84 /* Release-Etransfer */,
+				B296DC8D2B2291A500716F84 /* Release-Ventas */,
+				B296DC8E2B2291A500716F84 /* Profile-Etransfer */,
+				B296DC8F2B2291A500716F84 /* Profile-Ventas */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug-Ventas";
+		};
+		B296DC9B2B22AE1A00716F84 /* Build configuration list for PBXNativeTarget "EtransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B296DC9C2B22AE1A00716F84 /* Debug-Etransfer */,
+				B296DC9D2B22AE1A00716F84 /* Debug-Ventas */,
+				B296DC9E2B22AE1A00716F84 /* Release-Etransfer */,
+				B296DC9F2B22AE1A00716F84 /* Release-Ventas */,
+				B296DCA02B22AE1A00716F84 /* Profile-Etransfer */,
+				B296DCA12B22AE1A00716F84 /* Profile-Ventas */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug-Ventas";
 		};
 /* End XCConfigurationList section */
 	};

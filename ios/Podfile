@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '11.0'
+
+target 'Etransfer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Etransfer
+
+  target 'EtransferTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Ventas' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Ventas
+
+  target 'VentasTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
