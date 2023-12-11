@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   AppConfig.create(
-      appName: "Ventas",
-      baseUrl: "https://Ventas",
-      buildType: BuildType.ventas);
+      appName: "Etransfer",
+      baseUrl: "https://Etransfer",
+      buildType: BuildType.etransfer);
   runApp(const MyApp());
 }
