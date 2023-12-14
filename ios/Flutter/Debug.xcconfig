@@ -1,2 +1,5 @@
-#include? "Pods/Target Support Files/Pods-Etransfer App/Pods-Etransfer App.debug free.xcconfig"
+#include? "Pods/Target Support Files/Pods-Etransfer/Pods-Etransfer.debug-etransfer.xcconfig"
+#include? "Pods/Target Support Files/Pods-Ventas/Pods-Ventas.debug-etransfer.xcconfig"
+#include? "Pods/Target Support Files/Pods-Etransfer/Pods-Etransfer.debug-ventas.xcconfig"
+#include? "Pods/Target Support Files/Pods-Ventas/Pods-Ventas.debug-ventas.xcconfig"
 #include "Generated.xcconfig"
