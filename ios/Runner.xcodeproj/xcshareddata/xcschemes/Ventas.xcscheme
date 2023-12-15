@@ -92,7 +92,7 @@
       buildConfiguration = "Debug-Ventas">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Debug-Ventas"
+      buildConfiguration = "Profile-Ventas"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
