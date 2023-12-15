@@ -1,0 +1,18 @@
+flutter_native_splash:
+  color: "#F95238"
+  image: assets/images/marzam.png
+  branding: assets/images/marzam.png
+  color_dark: "#F95238"
+  image_dark: assets/images/marzam.png
+  branding_dark: assets/images/marzam.png
+
+  android_12:
+    image: assets/images/marzam.png
+    icon_background_color: "#F95238"
+    image_dark: assets/images/marzam.png
+    icon_background_color_dark: "#F95238"
+
+  web: false
+
+  info_plist_files:
+    - 'ios/Runner/Info-Ventas.plist'

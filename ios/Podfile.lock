@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: 885f4bf7f2cf8c23afd66675f94354912d6cbcc6
+PODS:
+  - Flutter (1.0.0)
+  - flutter_native_splash (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_native_splash: 52501b97d1c0a5f898d687f1646226c1f93c56ef
+
+PODFILE CHECKSUM: 5b61ed0ad0cb5ed913b090b1ddc4fd3e35d7aaa1
 
 COCOAPODS: 1.14.3
