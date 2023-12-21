@@ -1,6 +1,7 @@
 import 'package:app_core_login/app_config.dart';
 import 'package:app_core_login/models/enum/build_type.dart';
-import 'package:app_core_login/screens/screens.dart';
+import 'package:app_core_login/resources/theme/app_theme.dart';
+import 'package:app_core_login/routes/routes.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -30,15 +31,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    FlutterNativeSplash.remove();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: AppConfig.shared.appName,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const HomePage(),
+      theme: AppThemes.getThemeData(context),
+      initialRoute: RoutesApp.initRoute,
+      routes: RoutesApp.getAppRoutes(),
     );
   }
 }

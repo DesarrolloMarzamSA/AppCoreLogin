@@ -8,24 +8,24 @@
             "name": "DebugVentas",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main_ventas.dart",
+            "program": "lib/screens/ventas/main_ventas.dart",
             "args": [
                 "--flavor",
                 "Ventas",
                 "--target",
-                "lib/main_ventas.dart"
+                "lib/screens/ventas/main_ventas.dart"
             ]
         },
         {
             "name": "DebugETransfer",
             "request": "launch",
             "type": "dart",
-            "program": "lib/main_etransfer.dart",
+            "program": "llib/screens/etransfer/main_etransfer.dart",
             "args": [
                 "--flavor",
                 "Etransfer",
                 "--target",
-                "lib/main_etransfer.dart"
+                "lib/screens/etransfer/main_etransfer.dart"
             ]
         },
         {
@@ -33,12 +33,12 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
-            "program": "lib/main_ventas.dart",
+            "program": "lib/screens/ventas/main_ventas.dart",
             "args": [
                 "--flavor",
                 "Ventas",
                 "--target",
-                "lib/main_ventas.dart"
+                "lib/screens/ventas/main_ventas.dart"
             ]
         },
         {
@@ -46,12 +46,12 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
-            "program": "lib/main_etransfer.dart",
+            "program": "lib/screens/etransfer/main_etransfer.dart",
             "args": [
                 "--flavor",
                 "Etransfer",
                 "--target",
-                "lib/main_etransfer.dart"
+                "lib/screens/etransfer/main_etransfer.dart"
             ]
         },
         {
@@ -59,12 +59,12 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",
-            "program": "lib/main_ventas.dart",
+            "program": "lib/screens/ventas/main_ventas.dart",
             "args": [
                 "--flavor",
                 "Ventas",
                 "--target",
-                "lib/main_ventas.dart"
+                "lib/screens/ventas/main_ventas.dart"
             ]
         },
         {
@@ -72,12 +72,12 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",
-            "program": "lib/main_etransfer.dart",
+            "program": "llib/screens/etransfer/main_etransfer.dart",
             "args": [
                 "--flavor",
                 "Etransfer",
                 "--target",
-                "lib/main_etransfer.dart"
+                "lib/screens/etransfer/main_etransfer.dart"
             ]
         }
     ]

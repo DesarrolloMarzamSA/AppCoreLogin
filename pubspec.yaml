@@ -45,6 +45,7 @@ dependencies:
 
   #Utilidades
   flutter_dotenv: ^5.1.0
+  sqflite: ^2.3.0  
 
 dev_dependencies:
   flutter_test:
